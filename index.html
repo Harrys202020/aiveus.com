@@ -2,119 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AiVEUS | Empowering the Future with AI</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: #222; line-height: 1.6; }
-    nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: rgba(0,0,0,0.8);
-      padding: 1rem;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      z-index: 999;
-    }
-    nav a { color: #fff; text-decoration: none; font-weight: 600; }
-    nav a:hover { text-decoration: underline; }
-    header {
-      background: url('https://source.unsplash.com/1600x800/?ai,technology') center/cover no-repeat;
-      height: 100vh;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 0 1rem;
-    }
-    header img {
-      width: 160px;
-      margin-bottom: 1.5rem;
-    }
-    header h1 {
-      font-size: 3rem;
-      font-weight: 800;
-    }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 1rem;
-      max-width: 700px;
-    }
-    section {
-      max-width: 1100px;
-      margin: 4rem auto;
-      padding: 0 1rem;
-    }
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-    .feature {
-      background-color: #f4f4f4;
-      padding: 2rem;
-      border-radius: 0.5rem;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-      text-align: center;
-    }
-    .feature img {
-      width: 80px;
-      margin-bottom: 1rem;
-    }
-    footer {
-      background-color: #111;
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-      margin-top: 4rem;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AiVEUS | AI-Powered Transformation</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="industries.html">Industries</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <header>
-    <img src="aiveus-logo.png" alt="AiVEUS Logo" onerror="this.style.display='none';">
-    <h1>Welcome to AiVEUS</h1>
-    <p>Empowering public and private sector organizations through cutting-edge AI solutions and strategic consulting for a smarter, more efficient future.</p>
-  </header>
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="features">
-      <div class="feature">
-        <img src="https://img.icons8.com/ios-filled/100/000000/artificial-intelligence.png" alt="AI Consultancy">
-        <h3>AI Consultancy</h3>
-        <p>We help you identify, plan, and implement AI strategies that drive real transformation.</p>
-      </div>
-      <div class="feature">
-        <img src="https://img.icons8.com/ios-filled/100/000000/cloud.png" alt="AI Platform">
-        <h3>AI-as-a-Service Platform</h3>
-        <p>Flexible tools to automate operations, analyze data, and enhance services across sectors.</p>
-      </div>
-      <div class="feature">
-        <img src="https://img.icons8.com/ios-filled/100/000000/training.png" alt="Training">
-        <h3>Training & Adoption</h3>
-        <p>Guiding teams with hands-on training and change management support for lasting success.</p>
-      </div>
+    <h1>AiVEUS</h1>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </div>
+    <button id="toggle-dark">🌓</button>
+  </nav>
+  <header class="hero">
+    <h2>Empowering Smarter Systems with AI</h2>
+    <p>AI strategy, automation, and transformation for public & private sectors.</p>
+    <a class="cta-btn" href="https://calendly.com/6525085" target="_blank">Book a Discovery Call</a>
+  </header>
+  <section class="features">
+    <div><h3>AI Consultancy</h3><p>Identify and integrate high-impact AI initiatives.</p></div>
+    <div><h3>AI-as-a-Service</h3><p>Use our scalable SaaS tools to automate core processes.</p></div>
+    <div><h3>Change Management</h3><p>Support adoption with training, strategy, and support.</p></div>
   </section>
-
-  <footer>
-    <p>&copy; 2025 AiVEUS Ltd. All rights reserved.</p>
-    <p>Follow us on LinkedIn | Twitter | Instagram</p>
-  </footer>
 </body>
 </html>
